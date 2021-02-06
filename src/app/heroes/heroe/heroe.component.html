@@ -1,0 +1,19 @@
+<h1>{{ nombre }}</h1>
+
+<h2>One Way Databinding</h2>
+<dl>
+    <dt>Nombre</dt>
+    <dd>{{ nombre }}</dd>
+    
+    <dt>Edad</dt>
+    <dd>{{ edad }}</dd>
+    
+    <dt>Función</dt>
+    <dd>{{ getName() }}</dd>
+
+    <dt>Capitalizado</dt>
+    <dd>{{ nameCapitalize }}</dd>
+</dl>
+
+<button (click)="changeName()">Cambiar Heroe</button>
+<button (click)="changeEdad()">Cambiar Edad</button>
